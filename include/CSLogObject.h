@@ -23,7 +23,7 @@ using namespace log4cplus::helpers;
 #define WATCH_DELAY_TIME    10 * 10000
 #define MAX_LOG_LENGTH   1024 * 10
 
-
+//Log Level  high->low
 enum LogLevel{
 	LOGLEVEL_TRACE = 0,
 	LOGLEVEL_DEBUG,

@@ -1,6 +1,8 @@
 #include "CLog4cplus.h"
 
-
+/**
+ * watchCfg_Flag：是否开启配置文件监听事件
+ */
 CLog4cplus::CLog4cplus(const bool watchCfg_Flag) : CSLogObject(watchCfg_Flag)
 {
 	m_logger = Logger::getRoot();
